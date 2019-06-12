@@ -2,6 +2,7 @@
 def badge_maker(person)
   tags = []
   person.each do |name|
-    return "Hello, my name is #{name}"
+    tags << "Hello, my name is #{name}"
 end
+return tags
 end
