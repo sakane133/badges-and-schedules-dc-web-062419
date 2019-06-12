@@ -1,4 +1,6 @@
 # Write your code here.
 def badge_maker(person)
-    return "Hello, my name is #{person}"
+  person.each do |names|
+    return "Hello, my name is #{names}"
+end
 end
