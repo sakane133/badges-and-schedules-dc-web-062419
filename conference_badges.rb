@@ -19,4 +19,8 @@ def assign_rooms(room)
 return greet
 end 
 
-def printer
+def printer(names)
+  names.each do |list|
+    batch_badge_creator(list)
+    assign_rooms(list)
+end 
