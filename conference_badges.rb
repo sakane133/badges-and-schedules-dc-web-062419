@@ -4,5 +4,6 @@ def badge_maker(person)
  list = person.size
  while num < list
     puts "Hello, my name is #{names}"
+    num += 1
 end 
 end
