@@ -12,5 +12,5 @@ return badge
 end 
 
 def assign_rooms(room)
-  return ""
+  return "Hello, !  You'll be assigned to room #{room}"
 end 
