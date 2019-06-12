@@ -14,5 +14,5 @@ end
 def assign_rooms(room)
   greet = []
   room.each_with_index
-  return "Hello, #{room}!  You'll be assigned to room "
+  greet << "Hello, #{room}!  You'll be assigned to room "
 end 
