@@ -20,7 +20,10 @@ return greet
 end 
 
 def printer(names)
-    batch_badge_creator(list)
-    assign_rooms(list)
+    batch_badge_creator(names).each do |list|
+      return list
+    end
+    assign_rooms(names).each do |num|
+      return num
 end 
 end
