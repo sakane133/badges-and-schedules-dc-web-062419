@@ -4,7 +4,9 @@ return "Hello, my name is #{person}."
 end
 
 def batch_badge_creator(names)
-
-  names.each do |badge|
-    return "Hello, my name is #{badge}."
+badge = []
+  names.each do |ppl|
+    badge << return "Hello, my name is #{ppl}."
+end 
+return badge
 end 
