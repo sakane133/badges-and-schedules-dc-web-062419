@@ -14,7 +14,8 @@ end
 def assign_rooms(room)
   greet = []
   room.each_with_index{|name, index|
-  greet << "Hello, #{room}!  You'll be assigned to room "
-  
+  greet << "Hello, #{room}!  You'll be assigned to room #{index + 1}!"
   }
+end 
+return greet
 end 
