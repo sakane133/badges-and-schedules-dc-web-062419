@@ -10,3 +10,7 @@ badge = []
 end 
 return badge
 end 
+
+def assign_rooms(room)
+  return ""
+end 
