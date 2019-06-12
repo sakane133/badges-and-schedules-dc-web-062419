@@ -18,3 +18,5 @@ def assign_rooms(room)
   }
 return greet
 end 
+
+def printer
